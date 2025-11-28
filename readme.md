@@ -1,4 +1,4 @@
-# Rethinking Fusion and Orthogonal Projection for Face-Voice Association 
+# Rethinking Fusion and Orthogonal Projection for Face-Voice Association (FAME 2026)
 
 The paper is available [arxiv]()
 
