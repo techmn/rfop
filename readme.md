@@ -1,16 +1,11 @@
 # Rethinking Fusion and Orthogonal Projection for Face-Voice Association (FAME 2026)
-
-<a href="https://arxiv.org/abs/2512.02860">
-<img src="images/arxiv-logo-svg" alt="arxiv" style="vertical-align:top margin:6px 4px">
-</a>
-
-[arxiv](https://arxiv.org/abs/2512.02860)
+Paper Link: [arxiv](https://arxiv.org/abs/2512.02860) &nbsp; 
 
 
 ## Overview
 RFOP revisits the fusion and orthogonal projection for face-voice association by effectively focusing on the relevant semantic information within the two modalities.
 
-<img width="768" alt="image" src="images/rfop.png">
+<img width="480" alt="image" src="images/rfop.png">
 
 ## Installation
 Please follow the instructions [here](https://github.com/msaadsaeed/FOP) to make the environment and install the libraries.
