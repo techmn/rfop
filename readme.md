@@ -1,11 +1,11 @@
 # Rethinking Fusion and Orthogonal Projection for Face-Voice Association (FAME 2026)
 
-The paper is available [arxiv]()
+The paper is available [arxiv](https://arxiv.org/abs/2512.02860)
 
 ## Overview
 
 ## Architecture
-<img width="768" alt="image" src="">
+<img width="768" alt="image" src="images/rfop.png">
 
 ### Installation
 Please follow the instructions [here](https://github.com/msaadsaeed/FOP) to make the environment and install the libraries.
