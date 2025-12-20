@@ -25,6 +25,12 @@ python computeScore.py --ckpt <path to checkpoint.pth.tar> --dim_embed 256
 ## Acknowledgements
 The codebase is inspired from the [FOP](https://github.com/msaadsaeed/FOP) repository. We thank them for releasing their valuable codebase. 
 
+### Similar Works
+- [FAME](https://github.com/mavceleb/mavceleb_baseline) &nbsp; Face-voice Association in Multilingual Environments (FAME Challenge)
+- [PAEFF](https://github.com/hannabdul/paeff) &nbsp; Precise Alignment and Enhanced Gated Feature Fusion for Face-Voice Association (InterSpeech 2025)
+- [SBNet](https://github.com/msaadsaeed/SBNet) &nbsp; Single-branch Network for Multimodal Training (ICASSP 2023)
+- [FOP](https://github.com/msaadsaeed/FOP) &nbsp; Fusion and Orthogonal Projection for Improved Face-Voice Association (ICASSP 2022)
+
 ## Citation
 ```
 @misc{rfop2025,
