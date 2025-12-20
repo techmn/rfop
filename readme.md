@@ -1,37 +1,44 @@
 # Rethinking Fusion and Orthogonal Projection for Face-Voice Association (FAME 2026)
 
-The paper is available [arxiv](https://arxiv.org/abs/2512.02860)
+<a href="https://arxiv.org/abs/2512.02860">
+<img src="images/arxiv-logo-svg" alt="arxiv" style="vertical-align:top margin:6px 4px">
+</a>
+
+[arxiv](https://arxiv.org/abs/2512.02860)
+
 
 ## Overview
+RFOP revisits the fusion and orthogonal projection for face-voice association by effectively focusing on the relevant semantic information within the two modalities.
 
-## Architecture
 <img width="768" alt="image" src="images/rfop.png">
 
-### Installation
+## Installation
 Please follow the instructions [here](https://github.com/msaadsaeed/FOP) to make the environment and install the libraries.
 
 ## Training
 Use following command to train the model
 ```
-python main.py --save_dir ./model --lr 2e-5 --batch_size 1024 --max_num_epoch 50 --dim_embed 256 \
---train_path_face <path_to_train_face_features> \
---train_path_voice <path_to_train_voice_features> \
---test_path_face <path_to_test_face_features> \
---test_path_voice <path_to_test_voice_features>
+python main.py --batch_size 64 --epochs 50 --dim_embed 256
 ```
 
-## Testing
-Use following command to test the trained model
+## Score Computation
+Use following command to compute score for the trained model
 ```
-python test.py --ckpt <path to checkpoint.pth.tar> --dim_embed 256 
+python computeScore.py --ckpt <path to checkpoint.pth.tar> --dim_embed 256 
 ```
-
-Download model weights from [here]()
-
 
 ## Acknowledgements
 The codebase is inspired from the [FOP](https://github.com/msaadsaeed/FOP) repository. We thank them for releasing their valuable codebase. 
 
 ## Citation
 ```
+@misc{rfop2025,
+      title={RFOP: Rethinking Fusion and Orthogonal Projection for Face-Voice Association}, 
+      author={Abdul Hannan and Furqan Malik and Hina Jabbar and Syed Suleman Sadiq and Mubashir Noman},
+      year={2025},
+      eprint={2512.02860},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2512.02860}, 
+}
 ```
